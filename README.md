@@ -4,7 +4,7 @@
 A high-performance C# CLI application that extracts taxi trip data from a CSV, transforms it, removes duplicates, and bulk-loads it into a SQL Server database.
 
 ## Deliverables
-* **Final Row Count:** [Insert your SELECT COUNT(*) result here]
+* **Final Row Count:** 49889
 * **SQL Scripts:** Located in `setup.sql` in the root directory.
 
 ## Requirement #9: Scaling to a 10GB File
@@ -25,3 +25,4 @@ If I knew the input was 10GB, I would shift from an ETL to an ELT (Extract, Load
 1. Execute the `setup.sql` script in your SQL Server instance to create the database, table, and optimized indexes.
 2. Update the `DefaultConnection` string in `appsettings.json` with your database credentials.
 3. Run the application via CLI: `dotnet run "path/to/your/sample.csv"`
+
